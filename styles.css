@@ -1,2 +1,49 @@
-
-/* Your CSS Code here. */
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:darkorange;
+        }
+        header {
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(114, 109, 109, 0.7);
+            background-image: linear-gradient(rgb(30, 3, 3), maroon);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family:'Times New Roman', Times, serif;
+            border: 2px solid yellowgreen;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow: 5px 5px 5px 5px ;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin-top: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(32, 2, 25);
+        }
+        summary {
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            padding: 10px;
+            font-style: oblique;
+        }
+        section {
+            padding: 10px;
+            font-size: 24px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
